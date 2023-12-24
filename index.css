@@ -3,7 +3,7 @@
   flex: 1;
 }
 .sağ {
-  background-color: #2c5a4a;
+  background-color: black;
   flex: 3;
 }
 .container {
@@ -22,9 +22,29 @@ h1 {
   font-size: 40px;
   font-family: Poppins;
   font-weight: normal;
+  color: FFBA49;
 }
 
 h3 {
   line-height: 1;
   font-size: 20px;
+}
+
+p {
+  color: #ffba49;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin: 0 70px 10px;
+}
+.search {
+  overflow: hidden;
+}
+
+.created {
+  padding: 20px 0;
+  /*======= metni ortalayacak kodu yazın */
+  text-align: left;
 }
